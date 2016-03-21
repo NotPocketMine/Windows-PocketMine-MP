@@ -6,7 +6,7 @@ Installation
 Installing on Windows
 ---------------------
 INSTALLER
-_________
+
 There are 2 Un-Official PocketMine-MP Installers by TheDeibo
 
 - One for `x64 <https://github.com/thedeibo/Windows-PocketMine-MP/raw/master/PocketMine-MP-x64.exe>`_
