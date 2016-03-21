@@ -7,9 +7,9 @@ Installing on Windows
 ---------------------
 They is two Unofficial installers for PocketMine, created By TheDeibo.
 
-One for `x64 <Win-Install-x64>`_.
+One for `x64 <https://github.com/thedeibo/Windows-PocketMine-MP/raw/master/PocketMine-MP-x64.exe>`_ ,
+And, one for `x86 <https://github.com/thedeibo/Windows-PocketMine-MP/raw/master/PocketMine-MP-x86.exe>`_ .
 
-And, one for `x86 <Win-Install-x86>`_.
 
 
 Download the latest PHP binary from `Bintray <Win-Bintray_>`_.
@@ -236,7 +236,6 @@ You can skip the wizard from here and start the server with the default settings
 
 The server should have started now and you should be able to join.
 
-.. _Win-Bintray: https://bintray.com/pocketmine/PocketMine/Windows-PHP-Binaries/view#files
 .. _GitHub: https://github.com/PocketMine/PocketMine-MP/releases
 .. _PHP-Bintray: https://bintray.com/pocketmine/PocketMine/Unix-PHP-Binaries/view#files
 .. _PM-Stable: https://github.com/PocketMine/PocketMine-MP/releases
