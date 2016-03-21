@@ -236,8 +236,6 @@ You can skip the wizard from here and start the server with the default settings
 
 The server should have started now and you should be able to join.
 
-.. _Win-Install-x64: https://github.com/thedeibo/Windows-PocketMine-MP/raw/master/PocketMine-MP-x64.exe
-.. _Win-Install-x86: https://github.com/thedeibo/Windows-PocketMine-MP/raw/master/PocketMine-MP-x86.exe
 .. _Win-Bintray: https://bintray.com/pocketmine/PocketMine/Windows-PHP-Binaries/view#files
 .. _GitHub: https://github.com/PocketMine/PocketMine-MP/releases
 .. _PHP-Bintray: https://bintray.com/pocketmine/PocketMine/Unix-PHP-Binaries/view#files
