@@ -6,7 +6,7 @@ Installation
 Installing on Windows
 ---------------------
 They is two Unofficial installers for PocketMine, created By TheDeibo.
-One for 'x64 <_Win-Install-x64_>'_'
+One for `x64 <_Win-Install-x64_>`_,
 
 Download the latest PHP binary from `Bintray <Win-Bintray_>`_.
 Use the installer to install PocketMine-MP.
