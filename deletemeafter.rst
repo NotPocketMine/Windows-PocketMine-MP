@@ -5,20 +5,27 @@ Installation
 
 Installing on Windows
 ---------------------
-They is two Unofficial installers for PocketMine, created By TheDeibo.
+INSTALLER
+_________
+**There are 2 Un-Official PocketMine-MP Installers by TheDeibo**
 
-One for `x64 <https://github.com/thedeibo/Windows-PocketMine-MP/raw/master/PocketMine-MP-x64.exe>`_ ,
-And, one for `x86 <https://github.com/thedeibo/Windows-PocketMine-MP/raw/master/PocketMine-MP-x86.exe>`_ .
+- One for `x64 <https://github.com/thedeibo/Windows-PocketMine-MP/raw/master/PocketMine-MP-x64.exe>`_
+- One for `x86 <https://github.com/thedeibo/Windows-PocketMine-MP/raw/master/PocketMine-MP-x86.exe>`_
 
+These installers provide you with the files you need to make a server!
 
+This installer provides you with these folders and files:
 
-Download the latest PHP binary from `Bintray <Win-Bintray_>`_.
-Use the installer to install PocketMine-MP.
-The installer may have an outdated version of PocketMine-MP.
-You can download the latest .phar from `Bintray <Phar-Bintray_>`_.
+1. /bin
+2. /start.cmd
+3. PocketMine-MP.phar
 
-.. warning::
-    If the provided x64 binary does not work then try the x86 binary.
+Inside of the bin, are the files necessary to run the server.
+
+For more information, please `CLICK HERE <https://forums.pocketmine.net/threads/pocketmine-1-6-php7-installer-windows.15493/>`_
+
+You can also download the latest .phar from `Bintray <https://bintray.com/pocketmine/PocketMine/PocketMine-MP-phar/view#files>`_.
+
 
 Installing on Linux/MacOS
 -------------------------
@@ -63,7 +70,7 @@ Using .phar
 ~~~~~~~~~~~
 
 1. Create a new directory for PocketMine-MP.
-2. Download PocketMine-MP.phar from `Bintray <Phar-Bintray_>`_.
+2. Download PocketMine-MP.phar from `Bintray <https://bintray.com/pocketmine/PocketMine/PocketMine-MP-phar/view#files>`_.
 3. Rename the .phar to ``PocketMine-MP.phar``.
 4. Place it in the PocketMine-MP directory you just created.
 
@@ -242,4 +249,3 @@ The server should have started now and you should be able to join.
 .. _PocketMine-MP for Android: https://play.google.com/store/apps/details?id=net.pocketmine.server
 .. _Crowdin: http://translate.pocketmine.net
 .. _License: https://github.com/PocketMine/PocketMine-MP/blob/master/LICENSE
-.. _Phar-Bintray: https://bintray.com/pocketmine/PocketMine/PocketMine-MP-phar/view#files
