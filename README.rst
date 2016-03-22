@@ -31,7 +31,9 @@ You can also download the latest .phar from `Bintray <https://bintray.com/pocket
 
 If you have recieved this error:
 .. code-block:: 
-	/usr/bin/php/php.exe: error while loading shared libraries: api-ms-win-crt-locale-l1-1-0.dll: cannot open shared object file: 	No such file or directory
+	/usr/bin/php/php.exe: error while loading shared libraries: api-ms-win-crt-locale-l1-1-0.dll: cannot open shared object file: 	
+	No such file or directory
+	
 	bin\php\php.exe: Exit 127
 .. code-block:: 
 Then, you'll need to download the correct version of this, `https://support.microsoft.com/en-us/kb/2999226 <https://support.microsoft.com/en-us/kb/2999226>`_
