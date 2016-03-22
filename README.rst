@@ -30,8 +30,10 @@ For more information, please `CLICK HERE <https://forums.pocketmine.net/threads/
 You can also download the latest .phar from `Bintray <https://bintray.com/pocketmine/PocketMine/PocketMine-MP-phar/view#files>`_.
 
 If you have recieved this error:
+.. code-block:: 
 	/usr/bin/php/php.exe: error while loading shared libraries: api-ms-win-crt-locale-l1-1-0.dll: cannot open shared object file: 	No such file or directory
 	bin\php\php.exe: Exit 127
+.. code-block:: 
 Then, you'll need to download the correct version of this, `https://support.microsoft.com/en-us/kb/2999226 <https://support.microsoft.com/en-us/kb/2999226>`_
 If any more errors occur, it may be explained on the installer's `TOPIC ON POCKETMINE <https://forums.pocketmine.net/threads/pocketmine-1-6-php7-installer-windows.15493/>`_
 
