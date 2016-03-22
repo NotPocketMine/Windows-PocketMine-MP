@@ -16,7 +16,7 @@ These installers provide you with the files you need to make a server!
 
 This installer provides you with these folders and files:
 
-1. /bin
+1. /bin (And ALL its files inside)
 2. /start.cmd
 3. PocketMine-MP.phar
 
