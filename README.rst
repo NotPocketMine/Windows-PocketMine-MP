@@ -87,7 +87,7 @@ Install `PocketMine-MP for Android`_ from the Google play.
 Installing manually
 -------------------
 
-Did the installer fail? It is not your taste? YOLO? DIY!
+Did the installer fail? It is not your taste? You cah do it your self!
 
 Using .phar
 ~~~~~~~~~~~
