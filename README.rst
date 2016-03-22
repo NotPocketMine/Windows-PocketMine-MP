@@ -24,18 +24,18 @@ You will also need to download this.
 `https://www.microsoft.com/en-gb/download/details.aspx?id=48145 <https://www.microsoft.com/en-gb/download/details.aspx?id=48145>`_
 Please use the correct version, else the server may not work. It supplies the essential code for running the server. Without it, You will recieve an error, and would not be able to run the server, and would recieve this error
 
-.. code-block::
+.. code-block:: winerror1
 	/usr/bin/php/php.exe: error while loading shared libraries: ?:
 	cannot open shared object file: No such file or directory
 	bin\php\php.exe: Exit 127
-.. code-block::
+.. code-block:: winerror1
 If you have recieved this error:
-.. code-block:: 
+.. code-block:: winerror2
 	/usr/bin/php/php.exe: error while loading shared libraries: api-ms-win-crt-locale-l1-1-0.dll: cannot open shared object file: 	
 	No such file or directory
 	
 	bin\php\php.exe: Exit 127
-.. code-block:: 
+.. code-block:: winerror2
 Then, you'll need to download the correct version of this, `https://support.microsoft.com/en-us/kb/2999226 <https://support.microsoft.com/en-us/kb/2999226>`_
 
 For more information about the installer ,or how to fix some errors, please `CLICK HERE <https://forums.pocketmine.net/threads/pocketmine-1-6-php7-installer-windows.15493/>`_
