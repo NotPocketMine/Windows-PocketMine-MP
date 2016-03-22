@@ -44,7 +44,7 @@ If you have recieved this error:
 
 Then, you'll need to download the correct version of this, `https://support.microsoft.com/en-us/kb/2999226 <https://support.microsoft.com/en-us/kb/2999226>`_
 
-For more information about the installer ,or how to fix some errors, please `CLICK HERE <https://forums.pocketmine.net/threads/pocketmine-1-6-php7-installer-windows.15493/>`_
+For more information about the installer, or how to fix some errors, please `CLICK HERE <https://forums.pocketmine.net/threads/pocketmine-1-6-php7-installer-windows.15493/>`_
 
 
 
