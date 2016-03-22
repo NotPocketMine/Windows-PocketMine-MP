@@ -124,13 +124,13 @@ Getting PHP and the start script
 
 1. Downlad your flavor PHP binary.
 
-   * Windows `Bintray <Bintray_>`_
-   * MacOS `Bintray <PHP-Bintray_>`_
-   * CentOS `Bintray <PHP-Bintray_>`_
-   * Linux `Bintray <PHP-Bintray_>`_
-   * Linux ARM `Bintray <PHP-Bintray_>`_
-   * Android `Bintray <PHP-Bintray_>`_
-   * Raspbian `Bintray <PHP-Bintray_>`_
+   * Windows `Bintray <https://bintray.com/pocketmine/PocketMine/Windows-PHP-Binaries/view>`_
+   * MacOS `Bintray <https://bintray.com/pocketmine/PocketMine/Unix-PHP-Binaries/view#files>`_
+   * CentOS `Bintray <https://bintray.com/pocketmine/PocketMine/Unix-PHP-Binaries/view#files>`_
+   * Linux `Bintray <https://bintray.com/pocketmine/PocketMine/Unix-PHP-Binaries/view#files>`_
+   * Linux ARM `Bintray <https://bintray.com/pocketmine/PocketMine/Unix-PHP-Binaries/view#files>`_
+   * Android `Bintray <https://bintray.com/pocketmine/PocketMine/Unix-PHP-Binaries/view#files>`_
+   * Raspbian `Bintray <https://bintray.com/pocketmine/PocketMine/Unix-PHP-Binaries/view#files>`_
 
 2. Extract the PHP binary
 3. Download the `start.sh <https://raw.githubusercontent.com/PocketMine/PocketMine-MP/master/start.sh>`_
