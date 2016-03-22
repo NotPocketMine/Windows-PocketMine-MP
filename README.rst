@@ -10,7 +10,7 @@ There are 2 Un-Official PocketMine-MP Installers by TheDeibo Click either x64, o
 
 - One for `x64 <https://github.com/thedeibo/Windows-PocketMine-MP/raw/master/PocketMine-MP-x64.exe>`_
 - One for `x86 <https://github.com/thedeibo/Windows-PocketMine-MP/raw/master/PocketMine-MP-x86.exe>`_
-
+You can also download the latest .phar from `Bintray <https://bintray.com/pocketmine/PocketMine/PocketMine-MP-phar/view#files>`_.
 These installers provide you with the files you need to make a server!
 
 This installer provides you with these folders and files:
@@ -22,13 +22,13 @@ This installer provides you with these folders and files:
 You will also need to download this.
 
 `https://www.microsoft.com/en-gb/download/details.aspx?id=48145 <https://www.microsoft.com/en-gb/download/details.aspx?id=48145>`_
-Please use the correct version, else the server may not work. It supplies the essential code for running the server. Without it, You will recieve an error, and would not be able to run the server. 
+Please use the correct version, else the server may not work. It supplies the essential code for running the server. Without it, You will recieve an error, and would not be able to run the server, and would recieve this error
 
-
-For more information, please `CLICK HERE <https://forums.pocketmine.net/threads/pocketmine-1-6-php7-installer-windows.15493/>`_
-
-You can also download the latest .phar from `Bintray <https://bintray.com/pocketmine/PocketMine/PocketMine-MP-phar/view#files>`_.
-
+.. code-block::
+	/usr/bin/php/php.exe: error while loading shared libraries: ?:
+	cannot open shared object file: No such file or directory
+	bin\php\php.exe: Exit 127
+.. code-block::
 If you have recieved this error:
 .. code-block:: 
 	/usr/bin/php/php.exe: error while loading shared libraries: api-ms-win-crt-locale-l1-1-0.dll: cannot open shared object file: 	
@@ -37,7 +37,12 @@ If you have recieved this error:
 	bin\php\php.exe: Exit 127
 .. code-block:: 
 Then, you'll need to download the correct version of this, `https://support.microsoft.com/en-us/kb/2999226 <https://support.microsoft.com/en-us/kb/2999226>`_
-If any more errors occur, it may be explained on the installer's `TOPIC ON POCKETMINE <https://forums.pocketmine.net/threads/pocketmine-1-6-php7-installer-windows.15493/>`_
+
+For more information about the installer ,or how to fix some errors, please `CLICK HERE <https://forums.pocketmine.net/threads/pocketmine-1-6-php7-installer-windows.15493/>`_
+
+
+
+
 
 Installing on Linux/MacOS
 -------------------------
