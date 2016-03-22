@@ -25,9 +25,11 @@ You will also need to download this.
 Please use the correct version, else the server may not work. It supplies the essential code for running the server. Without it, You will recieve an error, and would not be able to run the server, and would recieve this error
 
 .. code-block:: winerror1
+
 	/usr/bin/php/php.exe: error while loading shared libraries: ?:
 	cannot open shared object file: No such file or directory
 	bin\php\php.exe: Exit 127
+	
 .. code-block:: winerror1
 If you have recieved this error:
 .. code-block:: winerror2
