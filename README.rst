@@ -5,7 +5,6 @@ Installation
 
 Installing on Windows
 ---------------------
-INSTALLER
 
 There are 2 Un-Official PocketMine-MP Installers by TheDeibo Click either x64, or x86 to download your chosen one.
 
@@ -34,6 +33,7 @@ If you have recieved this error:
 	/usr/bin/php/php.exe: error while loading shared libraries: api-ms-win-crt-locale-l1-1-0.dll: cannot open shared object file: 	No such file or directory
 	bin\php\php.exe: Exit 127
 Then, you'll need to download the correct version of this, `https://support.microsoft.com/en-us/kb/2999226 <https://support.microsoft.com/en-us/kb/2999226>`_
+If any more errors occur, it may be explained on the installer's `TOPIC ON POCKETMINE <https://forums.pocketmine.net/threads/pocketmine-1-6-php7-installer-windows.15493/>`_
 
 Installing on Linux/MacOS
 -------------------------
