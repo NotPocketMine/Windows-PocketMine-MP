@@ -141,7 +141,7 @@ Getting PHP and the start script
    * Raspbian `Bintray <https://bintray.com/pocketmine/PocketMine/Unix-PHP-Binaries/view#files>`_
 
 2. Extract the PHP binary
-3. Download the `start.sh <https://raw.githubusercontent.com/PocketMine/PocketMine-MP/master/start.sh>`_
+3. Download the `start.sh <https://raw.githubusercontent.com/PocketMine/PocketMine-MP/master/start.sh>`_ (For Windows, it's `start.cmd <https://raw.githubusercontent.com/PocketMine/PocketMine-MP/master/start.cmd>`_)
 4. Make start.sh executable (chmod +x start.sh)
 
 Starting for the first time
@@ -157,20 +157,20 @@ this can be disabled by running ``./start.sh --no-wizard``.
     [*] PocketMine-MP set-up wizard
     [*] Please select a language:
     English => en
-    EspaÃ±ol => es
-    ä¸­æ–‡ => zh
-    PyccÄ¸Ð¸Ð¹ => ru
-    æ—¥æœ¬èªž => ja
+    Español => es
+    中文 => zh
+    Pусский => ru
+    日本語 => ja
     Deutsch => de
-    í•œêµ­ì–´ => ko
+    한국어 => ko
     Nederlands => nl
-    FranÃ§ais => fr
+    Français  => fr
     Italiano => it
     Melayu => ms
     Norsk => no
     Svenska => sv
     Suomi => fi
-    TÃ¼rkÃ§e => tr
+    Türkçe => tr
     [?] Language (en):
 
 PocketMine-MP supports a few other languages.
