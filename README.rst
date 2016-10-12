@@ -48,42 +48,6 @@ For more information about the installer, or how to fix some errors, please `CLI
 
 
 
-
-
-Installing on Linux/MacOS
--------------------------
-.. warning::
-    Only works on Linux or MacOS.
-
-Use ``curl`` or ``wget`` to install PocketMine-MP using the following command.
-
-.. code-block:: sh
-
-	curl -sL https://raw.githubusercontent.com/PocketMine/php-build-scripts/master/installer.sh | bash -s -
-	wget -q -O - https://raw.githubusercontent.com/PocketMine/php-build-scripts/master/installer.sh | bash -s -
-
-.. code-block:: sh
-
-  [*] Found PocketMine-MP Final_1.5dev (build 1254) using API 1.12.0
-  [*] This development build was released on Sat Jun 20 09:45:04 CEST 2015
-  [*] Installing/updating PocketMine-MP on directory ./
-  [1/3] Cleaning...
-  [2/3] Downloading PocketMine-MP Final_1.5dev-1254 phar... done!
-  [3/3] Obtaining PHP: detecting if build is available...
-  [3/3] MacOS 64-bit PHP build available, downloading PHP_5.6.10_x86-64_MacOS.tar.gz... checking... regenerating php.ini... done
-  [*] Everything done! Run ./start.sh to start PocketMine-MP
-
-.. error::
-
-    It is recommended to run it as a **normal user** as it doesn't need further permissions.
-
-    **Do not run the installer as root, this is discouraged**.
-
-Installing on Android
----------------------
-
-Install `PocketMine-MP for Android`_ from the Google play.
-
 Installing manually
 -------------------
 
@@ -93,7 +57,7 @@ Using .phar
 ~~~~~~~~~~~
 
 1. Create a new directory for PocketMine-MP.
-2. Download PocketMine-MP.phar from `Bintray <https://bintray.com/pocketmine/PocketMine/PocketMine-MP-phar/view#files>`_.
+2. Download PocketMine-MP.phar from `Jenkins Website comingsoon<http://google.com>`_.
 3. Rename the .phar to ``PocketMine-MP.phar``.
 4. Place it in the PocketMine-MP directory you just created.
 
@@ -102,7 +66,7 @@ Using GitHub
 
 .. code::
 
-    $ git clone --recursive https://github.com/PocketMine/PocketMine-MP.git PocketMine-MP.git
+    $ git clone --recursive https://github.com/pmmp/PocketMine-MP.git PocketMine-MP.git
     Cloning into 'PocketMine-MP.git'...
     remote: Counting objects: 34068, done.
     remote: Compressing objects: 100% (13/13), done.
@@ -110,9 +74,9 @@ Using GitHub
     Receiving objects: 100% (34068/34068), 9.89 MiB | 1.79 MiB/s, done.
     Resolving deltas: 100% (25602/25602), done.
     Checking connectivity... done.
-    Submodule 'src/pocketmine/gui' (https://github.com/PocketMine/PocketMine-MP-GUI.git) registered for path 'src/pocketmine/gui'
-    Submodule 'src/raklib' (https://github.com/PocketMine/RakLib.git) registered for path 'src/raklib'
-    Submodule 'src/spl' (https://github.com/PocketMine/PocketMine-SPL.git) registered for path 'src/spl'
+    Submodule 'src/pocketmine/gui' (https://github.com/pmmp/PocketMine-MP-GUI.git) registered for path 'src/pocketmine/gui'
+    Submodule 'src/raklib' (https://github.com/pmmp/RakLib.git) registered for path 'src/raklib'
+    Submodule 'src/spl' (https://github.com/pmmp/PocketMine-SPL.git) registered for path 'src/spl'
     Submodule 'tests/TesterPlugin' (https://github.com/PocketMine/TesterPlugin.git) registered for path 'tests/TesterPlugin'
     Cloning into 'src/pocketmine/gui'...
     remote: Counting objects: 26, done.
@@ -156,7 +120,7 @@ Getting PHP and the start script
    * Raspbian `Bintray <https://bintray.com/pocketmine/PocketMine/Unix-PHP-Binaries/view#files>`_
 
 2. Extract the PHP binary
-3. Download the `start.sh <https://raw.githubusercontent.com/PocketMine/PocketMine-MP/master/start.sh>`_ (For Windows, it's `start.cmd <https://raw.githubusercontent.com/PocketMine/PocketMine-MP/master/start.cmd>`_)
+3. Download the `start.cmd <https://raw.githubusercontent.com/PocketMine/PocketMine-MP/master/start.cmd>`_
 4. Make start.sh executable (chmod +x start.sh)
 
 Starting for the first time
@@ -250,21 +214,21 @@ You can skip the wizard from here and start the server with the default settings
     [Server thread/INFO]: Loading pocketmine.yml...
     [Server thread/INFO]: Loading server properties...
     [Server thread/INFO]: Selected English (eng) as the base language
-    [Server thread/INFO]: Starting Minecraft: PE server version v0.11.0 alpha
-    [Server thread/NOTICE]: The memory-limit setting has been deprecated.
-    [Server thread/NOTICE]: There are new memory settings on pocketmine.yml to tune memory and events.
-    [Server thread/NOTICE]: You can also reduce the amount of threads and chunks loaded control the memory usage.
+    [Server thread/INFO]: Starting Minecraft: PE server version v0.15.10.0 alpha
     [Server thread/INFO]: Opening server on 0.0.0.0:19132
-    [Server thread/INFO]: This server is running PocketMine-MP version 1.5dev-1254 "活発(Kappatsu)フグ(Fugu)" (API 1.12.0)
+    [Server thread/INFO]: This server is running PocketMine-MP version 1.6dev "Unleashed" (API 2.0.0)
     [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+    [Server thread/INFO]: Loading recipes...
+    [Server thread/NOTICE]: Level "world" not found
     [Server thread/INFO]: Preparing level "world"
+    [Server thread/NOTICE]: Spawn terrain for level "world" is being generated in the background
     [Server thread/INFO]: Starting GS4 status listener
     [Server thread/INFO]: Setting query port to 19132
     [Server thread/INFO]: Query running on 0.0.0.0:19132
     [Server thread/INFO]: Default game type: Survival Mode
-    [Server thread/INFO]: Done (19.485s)! For help, type "help" or "?"
-
-The server should have started now and you should be able to join.
+    [Server thread/INFO]: Done (8.221s)! For help, type "help" or "?
+    
+The server should have started now and you should be able to join
 
 .. _Win-Bintray: https://bintray.com/pocketmine/PocketMine/Windows-PHP-Binaries/view#files
 .. _GitHub: https://github.com/PocketMine/PocketMine-MP/releases
