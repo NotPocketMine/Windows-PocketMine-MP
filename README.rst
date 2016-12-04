@@ -48,7 +48,7 @@ For more information about the installer, or how to fix some errors, please `CLI
 
 
 
-Installing manually
+Updating the Server
 -------------------
 
 Did the installer fail? It is not your taste? You cah do it your self!
@@ -57,71 +57,11 @@ Using .phar
 ~~~~~~~~~~~
 
 1. Create a new directory for PocketMine-MP.
-2. Download PocketMine-MP.phar from `Jenkins Website comingsoon<http://google.com>`_.
+2. Download PocketMine-MP.phar from `Jenkins Website <https://jenkins.pmmp.io/job/PocketMine-MP/lastSuccessfulBuild/>`_.
 3. Rename the .phar to ``PocketMine-MP.phar``.
 4. Place it in the PocketMine-MP directory you just created.
 
-Using GitHub
-~~~~~~~~~~~~
 
-.. code::
-
-    $ git clone --recursive https://github.com/pmmp/PocketMine-MP.git PocketMine-MP.git
-    Cloning into 'PocketMine-MP.git'...
-    remote: Counting objects: 34068, done.
-    remote: Compressing objects: 100% (13/13), done.
-    remote: Total 34068 (delta 2), reused 0 (delta 0), pack-reused 34055
-    Receiving objects: 100% (34068/34068), 9.89 MiB | 1.79 MiB/s, done.
-    Resolving deltas: 100% (25602/25602), done.
-    Checking connectivity... done.
-    Submodule 'src/pocketmine/gui' (https://github.com/pmmp/PocketMine-MP-GUI.git) registered for path 'src/pocketmine/gui'
-    Submodule 'src/raklib' (https://github.com/pmmp/RakLib.git) registered for path 'src/raklib'
-    Submodule 'src/spl' (https://github.com/pmmp/PocketMine-SPL.git) registered for path 'src/spl'
-    Submodule 'tests/TesterPlugin' (https://github.com/PocketMine/TesterPlugin.git) registered for path 'tests/TesterPlugin'
-    Cloning into 'src/pocketmine/gui'...
-    remote: Counting objects: 26, done.
-    remote: Compressing objects: 100% (21/21), done.
-    remote: Total 26 (delta 4), reused 26 (delta 4), pack-reused 0
-    Unpacking objects: 100% (26/26), done.
-    Checking connectivity... done.
-    Submodule path 'src/pocketmine/gui': checked out 'b551c3d58ec2fd9fa0f3c92d36fcbaa5c70467f7'
-    Cloning into 'src/raklib'...
-    remote: Counting objects: 577, done.
-    remote: Total 577 (delta 0), reused 0 (delta 0), pack-reused 577
-    Receiving objects: 100% (577/577), 141.29 KiB | 0 bytes/s, done.
-    Resolving deltas: 100% (432/432), done.
-    Checking connectivity... done.
-    Submodule path 'src/raklib': checked out '660bdff07d85c0270e57da2a5ce69eff2a87649a'
-    Cloning into 'src/spl'...
-    remote: Counting objects: 65, done.
-    remote: Total 65 (delta 0), reused 0 (delta 0), pack-reused 65
-    Unpacking objects: 100% (65/65), done.
-    Checking connectivity... done.
-    Submodule path 'src/spl': checked out '178d2a38f95d552fa5d91da26edc13a86d8054c6'
-    Cloning into 'tests/TesterPlugin'...
-    remote: Counting objects: 8, done.
-    remote: Compressing objects: 100% (2/2), done.
-    remote: Total 8 (delta 2), reused 1 (delta 1), pack-reused 5
-    Unpacking objects: 100% (8/8), done.
-    Checking connectivity... done.
-    Submodule path 'tests/TesterPlugin': checked out '1a0dec97cc354a0b62b41c007caa6f84885b8263'
-
-Getting PHP and the start script
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-1. Downlad your flavor PHP binary.
-
-   * Windows `Bintray <https://bintray.com/pocketmine/PocketMine/Windows-PHP-Binaries/view>`_
-   * MacOS `Bintray <https://bintray.com/pocketmine/PocketMine/Unix-PHP-Binaries/view#files>`_
-   * CentOS `Bintray <https://bintray.com/pocketmine/PocketMine/Unix-PHP-Binaries/view#files>`_
-   * Linux `Bintray <https://bintray.com/pocketmine/PocketMine/Unix-PHP-Binaries/view#files>`_
-   * Linux ARM `Bintray <https://bintray.com/pocketmine/PocketMine/Unix-PHP-Binaries/view#files>`_
-   * Android `Bintray <https://bintray.com/pocketmine/PocketMine/Unix-PHP-Binaries/view#files>`_
-   * Raspbian `Bintray <https://bintray.com/pocketmine/PocketMine/Unix-PHP-Binaries/view#files>`_
-
-2. Extract the PHP binary
-3. Download the `start.cmd <https://raw.githubusercontent.com/PocketMine/PocketMine-MP/master/start.cmd>`_
-4. Make start.sh executable (chmod +x start.sh)
 
 Starting for the first time
 ---------------------------
@@ -214,9 +154,9 @@ You can skip the wizard from here and start the server with the default settings
     [Server thread/INFO]: Loading pocketmine.yml...
     [Server thread/INFO]: Loading server properties...
     [Server thread/INFO]: Selected English (eng) as the base language
-    [Server thread/INFO]: Starting Minecraft: PE server version v0.15.10.0 alpha
+    [Server thread/INFO]: Starting Minecraft: PE server version v0.16.0.5 alpha
     [Server thread/INFO]: Opening server on 0.0.0.0:19132
-    [Server thread/INFO]: This server is running PocketMine-MP version 1.6dev "Unleashed" (API 2.0.0)
+    [Server thread/INFO]: This server is running PocketMine-MP version 1.6.1dev "Unleashed" (API 2.1.0)
     [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
     [Server thread/INFO]: Loading recipes...
     [Server thread/NOTICE]: Level "world" not found
@@ -226,15 +166,17 @@ You can skip the wizard from here and start the server with the default settings
     [Server thread/INFO]: Setting query port to 19132
     [Server thread/INFO]: Query running on 0.0.0.0:19132
     [Server thread/INFO]: Default game type: Survival Mode
-    [Server thread/INFO]: Done (8.221s)! For help, type "help" or "?
+    [Server thread/INFO]: Done (1.163s)! For help, type "help" or "?"
+    
+    
     
 The server should have started now and you should be able to join
 
 .. _Win-Bintray: https://bintray.com/pocketmine/PocketMine/Windows-PHP-Binaries/view#files
-.. _GitHub: https://github.com/PocketMine/PocketMine-MP/releases
-.. _PHP-Bintray: https://bintray.com/pocketmine/PocketMine/Unix-PHP-Binaries/view#files
-.. _PM-Stable: https://github.com/PocketMine/PocketMine-MP/releases
+.. _GitHub: https://jenkins.pmmp.io/
+.. _PHP-Bintray: https://jenkins.pmmp.io/
+.. _PM-Stable: https://jenkins.pmmp.io/job/PocketMine-MP/lastSuccessfulBuild/
 .. _PocketMine-MP for Android: https://play.google.com/store/apps/details?id=net.pocketmine.server
 .. _Crowdin: http://translate.pocketmine.net
-.. _License: https://github.com/PocketMine/PocketMine-MP/blob/master/LICENSE
-.. _Phar-Bintray: https://bintray.com/pocketmine/PocketMine/PocketMine-MP-phar/view#files
+.. _License: https://github.com/pmmp/PocketMine-MP/blob/master/LICENSE
+.. _Phar-Bintray: https://jenkins.pmmp.io/job/PocketMine-MP/lastSuccessfulBuild/
