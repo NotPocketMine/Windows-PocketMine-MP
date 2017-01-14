@@ -13,7 +13,18 @@ There are 2 Un-Official PocketMine-MP Installers by TheDeibo Click either x64, o
 You can also download the latest .phar from `Bintray <https://bintray.com/pocketmine/PocketMine/PocketMine-MP-phar/view#files>`_.
 These installers provide you with the files you need to make a server!
 
-This installer provides you with these folders and files:
+But what if I have forgotten/don't know my Windows OS?
+Not to worry. We have got that covored! Simply follow these steps:
+
+1. `Go on the PMMPInstaller file, <https://raw.githubusercontent.com/NotPocketMine/Windows-PocketMine-MP/master/pmmpinstaller.bat>`_
+2. Copy it into Notepad, and save it to your chosen location. (It's Recommended to put it on Desktop)
+3. Run the file. (By double clicking it.)
+4. The PMMPInstaller.bat will download a exe from the internet, which will give you the correct version of PocketMine-MP-x.exe.
+
+The Installers:
+---------------
+
+These installers will provide you with these folders and files:
 
 1. /bin (And ALL its files inside)
 2. /start.cmd
